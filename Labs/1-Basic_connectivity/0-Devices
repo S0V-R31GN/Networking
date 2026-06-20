@@ -1,0 +1,12 @@
+Switches, Routers, Hubs
+
+Topology and understaing of Network devices:
+
+The Switches bundle the local PCs together. 
+Computers inside Lab 1 can talk to each other through Switch 1 instantly using their hardware MAC addresses. 
+They don't need the router for local chatting.
+
+The Router sits at the border. If a PC in Lab 1 wants to talk to a PC in Lab B, the data travels up to Switch 1, 
+realizes the destination is in a different room, and hands it to the Router. The Router then passes it down to Switch 2.
+
+As of 2026, Hubs almost never implemented in real life because they are obsolete and insecure.
